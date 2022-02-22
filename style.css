@@ -1,0 +1,134 @@
+body{
+    background-color: #01795f;
+    color: rgb(0, 0, 0);
+    font: normal 19px impact;
+    line-height: 1.9em ;
+    margin: 0 50px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+a:hover{
+    color: rgb(0, 136, 255)
+}
+.button:hover {
+    background-color: chartreuse;
+    color: black;
+}
+.one{
+background-color: rgb(0, 0, 0);
+color: rgb(238, 255, 0);
+border: 5px rgb(255, 123, 0) dashed;
+border-bottom-width: 8px ;
+border-bottom-style: dotted;
+padding: 15px;
+
+}
+.two{
+    width: 75%;
+    margin: auto;
+}
+.one h1{
+    font-family: monospace;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .3em;
+}
+.three{
+border: 10px rgb(255, 255, 255) double;
+margin-top: 10px;
+padding: 15px;
+}
+.four{
+    border: 8px solid rgb(0, 160, 21);
+     border-radius:  15px; 
+    padding: 10px;
+    margin: 10px ;
+}
+.four ul {
+    list-style: square;
+}
+.four li {
+    padding-bottom: 6px;
+    border-bottom: dashed;
+}
+.seven {
+    padding: 20px;
+}
+.seven .five {
+    padding-bottom: 15px ;
+}
+.seven label {
+    display: block;
+}
+.seven input  {
+    padding: 8px;
+    width: 100%;
+}
+.button {
+    background-color: rgb(255, 199, 130);
+    padding: 15px;
+    border-radius: 30%;
+}
+#nou{
+    width: 200px;
+    
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.clr {
+    clear: both;
+}
+#main {
+    float: left;
+    width: 70%;
+    
+}
+#side {
+    float: right;
+    width: 30%;
+    padding: 10px;
+   
+    background-color: cadetblue;
+    color: cornsilk;
+    box-sizing: border-box;
+}
+.try{
+width: 500px;
+height: 400px;
+border: solid 1px white;
+margin-top: 30px;
+position: relative;
+background-image: url("ballon.jpg");
+background-position:center bottom ;
+background-repeat: no-repeat;
+}
+.try h1 {
+position: absolute;
+top: 150px;
+left: 150px;
+color: whitesmoke;
+}
+.try h2 {
+    position: absolute;
+top: 330px;
+left:350px;
+color: wheat;
+}
+.fix{
+    position: fixed;
+    top: 400px;
+}
+.list li:nth-child(3){
+    background: cadetblue;
+}
